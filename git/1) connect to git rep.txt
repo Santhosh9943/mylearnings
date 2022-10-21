@@ -1,0 +1,25 @@
+/*
+// local to remote command
+
+1)
+    # git init                                  : git inizialization
+    # git add (file name or .)                  : add files to commite
+    # git commit -m "usefull commit message"    : file ready to send remote repositery
+2)
+    # git branch -M main (hint:default branch is master)
+                * change current branch name to "master" into "main"
+    # git remote add origin https://github.com/Santhosh9943/learnings.git
+                * connect & origin the folder to remote folder
+    # git push -u origin main(branch name)
+                * up-lode local to remote repositery
+
+// remote to local command
+
+1)
+    # git init  
+                * inizialization the folder to git
+    # git remote add origin https://github.com/Santhosh9943/learnings.git
+                * connect & origin the folder to remote folder
+    # git pull -u origin main(branch name) 
+                * download remote to local folder
+*/
